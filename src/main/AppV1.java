@@ -14,7 +14,7 @@ public class AppV1 {
             long tempoInicial = System.currentTimeMillis();
 
             BuscaPalavras busca = new BuscaPalavras();
-            String palavra = "coffee";
+            String palavra = "developing";
             int qtdArquivos = 250;
             
             System.out.println("Buscando...");

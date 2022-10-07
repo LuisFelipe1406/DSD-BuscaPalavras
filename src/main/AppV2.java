@@ -14,8 +14,8 @@ public class AppV2 {
             //Para marcar o tempo
             long tempoInicial = System.currentTimeMillis();
                 
-            int threads = 2;                          //A quantidade de threads a serem usadas
-            String palavra = "coffee";                  //A palavra a ser procurada
+            int threads = 250;                          //A quantidade de threads a serem usadas
+            String palavra = "developing";              //A palavra a ser procurada
             int qtdPalavras = 0;                        //Quantidade de ocorrencias da palavra procurada        
             int qtdArquivos = 250;                      //A quantidade de arquivos
             int diferenca = qtdArquivos % threads;      //A diferença entre a divisao dos arquivos pelo numero de threads

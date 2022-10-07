@@ -24,7 +24,7 @@ public class buscaPalavrasThread extends Thread {
         
         for (int i = limiteInferior; i < limiteSuperior; i++) {
             try {
-                busca.buscar(this.palavra, "/dataset/" + i +".txt");
+                busca.buscar(this.palavra, "../recursos/dataset/" + i +".txt");
             } catch (IOException e) {
                 e.printStackTrace();
             }
